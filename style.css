@@ -1,19 +1,110 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/*body {
-    background: brown;
-  }*/
 header {
-  height: 15vh;
+  background: rgb(54, 54, 235);
+  color: white;
   text-align: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+main {
+  display: flex;
+}
+.darkViolet {
+  padding: 10px;
+  margin-top: 2px;
+  background: rgb(173, 53, 173);
+  color: white;
+}
+.quiz-container {
+  background-color: rgb(48, 48, 181);
+  text-align: center;
+  margin: 25px;
+  height: 500px;
+  justify-content: center;
+  display: flex;
+  width: 70%;
+  color: white;
+  padding: 30px;
+  font-size: x-large;
+}
+ul li {
+  list-style-type: none;
+  margin: 60px;
+}
+aside {
+  background: rgb(173, 53, 173);
+  width: 20%;
+  display: flex;
+  height: 30vh;
+  padding: 10px;
+  margin: 25px;
+  text-align: left;
+  align-items: left;
+}
+#anwer,
+li,
+#question {
+  color: white;
+  justify-content: space-between;
 }
 
-header button {
-  font-size: 36px;
+#submit {
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  background: rgb(173, 53, 173);
+  color: white;
 }
-.violet {
-  background: rgb(77, 21, 77);
+aside #timePara {
+  justify-content: center;
+  align-items: center;
+}
+span,
+p {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+}
+/* .timePara {
+  flex-grow: 1;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.myTimer {
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+}
+
+.myFooter {
+  width: 20%;
+  height: 200px;
+  margin: 20px;
+  background: rgb(173, 53, 173);
+  /* display: flex; */
+  justify-content: space-around;
+  justify-items: center;
+}
+.timer {
+  padding: 2rem;
+  font-weight: bold;
+  color: aliceblue;
+}
+.scoreBox {
+  background: rgb(173, 53, 173);
+  display: none;
+}
+#finalBox {
+  display: none;
+  background: rgb(173, 53, 173);
+  height: 200px;
+  margin: 20px;
 }
