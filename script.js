@@ -55,7 +55,8 @@ function startGame() {
   }
   isPlaying = true;
   userGuessArray = [];
-  timeLeft = 15;
+  //update quiz time
+  timeLeft = 30;
   // chosenWord = words[Math.floor(Math.random() * words.length)];
   // chosenWord = chosenWord.split("");
   // console.log("chosenword: ", chosenWord);
@@ -135,13 +136,6 @@ submitBtn.addEventListener("click", () => {
       loadQuiz();
     } else {
       gameOver();
-      // quiz.innerHTML = `
-      //        <h2> You answered ${score}/${questionArray.length} question correctly </h2>
-
-      //        <button onclick="location.reload()"> Reload</button>
-      //        `;
-      // clearInterval(timer);
-      // myScoreBox.style.display = "block";
     }
   }
 });
