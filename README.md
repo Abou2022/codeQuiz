@@ -33,7 +33,7 @@ Using JavaScript to create an interactive timed quiz
 
 The following animation demonstrates the application functionality:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/Untitled_%20Aug%2018,%202022%205_15%20PM.gif)
 
 ## Github
 
