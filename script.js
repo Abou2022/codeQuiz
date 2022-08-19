@@ -90,7 +90,7 @@ function startTimer() {
       // lossesSpan.textContent = losses;
       isPlaying = false;
     }
-  }, 3000);
+  }, 1000);
 }
 
 // function endTimer() {
