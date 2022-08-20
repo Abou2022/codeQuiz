@@ -8,8 +8,7 @@ Table of Contents:
     1. Descriptions
     2. Installation
     3. Mock-Up
-    4. Github
-    5.Question
+    4. Question
 
 ## Description
 
