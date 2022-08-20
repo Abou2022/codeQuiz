@@ -29,7 +29,7 @@ THEN I can save my initials and my score
 ## Installation
 
 ```
-Using JavaScript to create an interactive timed quiz
+Using Html, CSS and JavaScript to create an interactive timed quiz
 ```
 
 ## Mock-Up
@@ -38,14 +38,12 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/Untitled_%20Aug%2018,%202022%205_15%20PM.gif)
 
-## Github
-
-https://github.com/Abou2022/codeQuiz
-
 ## Question
 
-For any questions email me at:
-syllabakary2002@gmail.com
+For any question, you can email me or reach out via Github:
+
+- [email](mailto:syllabakary2002@gmail.com)
+- [Github](https://github.com/Abou2022/codeQuiz)
 
 ---
 
