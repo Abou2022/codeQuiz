@@ -1,5 +1,5 @@
 header {
-  background: rgb(54, 54, 235);
+  background: rgb(82, 82, 255);
   color: white;
   text-align: center;
   justify-content: space-between;
@@ -103,8 +103,21 @@ h3 {
   display: none;
 }
 #finalBox {
-  display: none;
+  display: inline-block;
+
+  /* justify-content: center; */
   background: rgb(173, 53, 173);
+  width: 300px;
   height: 200px;
-  margin: 20px;
+  margin: 25px;
+}
+#finalBox h4 {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+footer {
+  background-color: rgb(255, 138, 255);
+  color: white;
+  padding: 20px;
 }
