@@ -10,25 +10,47 @@ Table of Contents:
     3. Mock-Up
     4. Questions
 
+## Overview
+
+`The Interactive Quiz Application is a web-based quiz game designed to engage users with a series of questions while challenging their knowledge and time management skills. This project provides an interactive and enjoyable quiz experience, including timer functionality and score tracking.`
+
 ## Description
 
 ```
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
+User Interaction Flow: Interactive Quiz Application
+
+Initiation
+
+Action: Click the "Start" button.
+Result: A timer initiates, and a question is presented.
+Question Progression
+
+Action: Answer a question.
+Result: Upon answering, another question is presented.
+Incorrect Answer Handling
+
+Action: Provide an incorrect answer.
+Result: Time is deducted from the timer.
+Game Termination Conditions
+
+Action: Complete all questions or let the timer reach 0.
+Result: The game concludes.
+Post-Game Actions
+
+Action: Game ends.
+Result: Option to save initials and recorded score becomes available.
+This user interaction flow outlines the sequence of actions and outcomes in an interactive quiz application.
+
 ```
 
 ## Installation
 
 ```
-Using Html, CSS and JavaScript to create an interactive timed quiz
+HTML: Utilized for structuring the content and layout of webpages, ensuring proper organization and accessibility.
+
+CSS: Applied for styling, enhancing the visual appeal, and ensuring responsive design elements to create an engaging user experience.
+
+JavaScript: Implemented to add interactivity and dynamic behavior to web applications, enhancing user engagement and functionality.
 ```
 
 ## Mock-Up
