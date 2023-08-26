@@ -172,6 +172,8 @@ function storeData() {
   //displaying data on the page
 
   let text = JSON.parse(localStorage.getItem("highScore")) || [];
+  console.log("...............hello..................");
   console.log(text);
+  window.alert(text);
   document.getElementById("finalBox").innerHTML = text;
 }

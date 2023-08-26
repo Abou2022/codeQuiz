@@ -1,6 +1,6 @@
 header {
-  background: rgb(82, 82, 255);
-  color: white;
+  background: hsl(53, 90%, 75%);
+  color: black;
   text-align: center;
   justify-content: space-between;
   padding: 20px;
@@ -117,7 +117,7 @@ h3 {
   color: white;
 }
 footer {
-  background-color: rgb(255, 138, 255);
-  color: white;
+  background-color: hsl(53, 90%, 75%);
+  color: black;
   padding: 20px;
 }
