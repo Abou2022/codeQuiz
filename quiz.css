@@ -16,40 +16,59 @@ header {
 }
 button {
   padding: 25px;
+  font-size: 20px;
+  font-weight: bold;
   background-color: rgb(212, 212, 212);
 }
 
 section {
   display: flex;
-  float: right;
+  float: left;
   align-items: center;
   width: 60%;
-  height: 70vh;
+  height: 60vh;
   margin: 25px;
   font-size: 25px;
   line-height: 100px;
+  padding: 30px;
   background-color: rgb(255, 172, 157);
   justify-content: center;
 }
+input {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
 ul li {
   list-style-type: none;
+  font-weight: bold;
 }
 aside {
   display: flex;
-  float: left;
+  float: right;
   align-items: center;
   justify-content: center;
   font-size: 25px;
   width: 30%;
-  height: 20vh;
+  height: 15vh;
   margin: 25px;
+  padding: 10px;
   border-radius: 15px;
   background-color: rgb(255, 99, 99);
+  font-family: "Times New Roman", Times, serif;
+}
+
+aside .scoreBox {
+  display: none;
 }
 
 footer {
+  display: flex;
   background-color: rgb(255, 136, 136);
   clear: both;
-  color: black;
-  padding: 20px;
+  color: white;
+  font-size: 30px;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 20px; */
 }

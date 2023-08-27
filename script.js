@@ -56,7 +56,7 @@ function startGame() {
   isPlaying = true;
   userGuessArray = [];
   //update quiz time
-  timeLeft = 30;
+  timeLeft = 60;
   // chosenWord = words[Math.floor(Math.random() * words.length)];
   // chosenWord = chosenWord.split("");
   // console.log("chosenword: ", chosenWord);
@@ -144,7 +144,7 @@ function gameOver() {
   quiz.innerHTML = `
   <h2> You answered ${score}/${questionArray.length} question correctly </h2>
 
-  <button onclick="location.reload()"> Reload</button>
+  <button onclick="location.reload() " style="background-color:  white; padding: 25px; align-items: center; width: 60%; font-size: 20px; "> Reload</button>
   `;
   clearInterval(timer);
   myScoreBox.style.display = "block";
