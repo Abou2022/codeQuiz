@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(209, 209, 209);
+}
+header {
+  display: flex;
+  background-color: tomato;
+  color: white;
+  justify-content: center;
+  padding: 25px;
+}
+header button {
+  clear: both;
+  padding: 10px;
+  margin: 10px;
+}
+section {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  margin: 25px;
+  background-color: rgb(255, 172, 157);
+  justify-content: center;
+}
+aside {
+  display: flex;
+  float: right;
+  width: 45%;
+  background-color: rgb(255, 99, 99);
+}
+
+footer {
+  background-color: rgb(255, 136, 136);
+  color: black;
+  padding: 20px;
+}

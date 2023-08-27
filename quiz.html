@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz Game</title>
+    <link rel="stylesheet" href="./quiz.css" />
   </head>
   <body>
     <header>
-      <h1>Welcome to the coding Game Challenge</h1>
+      <h1>Welcome to your coding Game Challenge</h1>
       <button id="Start">Start Game</button>
     </header>
     <main>
@@ -38,9 +39,19 @@
           <h3>Time Keeper</h3>
           <p><span id="timePara">30</span>&nbsp seconds left!!</p>
         </div>
-        <div class="scoreBox"></div>
+        <div class="scoreBox">
+          <h3>ID</h3>
+          <input type="text" id="myInput" class="description" />
+          <button onclick="storeData()" class="saveBtn">Save</button>
+        </div>
+        <div>
+          <h3 id="myInitiall">Initiall</h3>
+          <h4 id="finalScore">Score</h4>
+        </div>
       </aside>
     </main>
-    <footer></footer>
+    <footer>
+      <h3>Enjoy your game</h3>
+    </footer>
   </body>
 </html>
