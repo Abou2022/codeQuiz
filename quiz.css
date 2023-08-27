@@ -3,14 +3,12 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-image: url("./Assests/Answerquestion.jpg");
-  /* background-color: rgb(209, 209, 209); */
   font-family: "Times New Roman", Times, serif;
 }
 
 header {
   display: flex;
   flex-direction: column;
-  /* background-color: tomato; */
   color: white;
   align-items: center;
   padding: 25px;
@@ -28,7 +26,6 @@ h3 {
   color: wheat;
 }
 section {
-  /* display: flex; */
   float: left;
   align-items: center;
   width: 60%;
@@ -37,7 +34,6 @@ section {
   font-size: 30px;
   line-height: 100px;
   padding: 30px;
-  /* background-color: rgb(255, 172, 157); */
   color: white;
   justify-content: center;
 }
@@ -66,7 +62,6 @@ aside {
   height: 15vh;
   margin: 25px;
   padding: 10px;
-  /* background-color: rgb(255, 99, 99); */
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -84,8 +79,8 @@ footer {
   background-color: rgb(255, 136, 136);
   clear: both;
   color: white;
-  font-size: 30px;
-  padding: 30px;
+  font-size: 25px;
+  padding: 10px;
   justify-content: center;
   align-items: center;
 }

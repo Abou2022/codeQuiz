@@ -66,7 +66,7 @@ To access the website, simply [visit my website](https://abou2022.github.io/code
 
 The following animation demonstrates the application functionality:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assests/Untitled_%20Aug%2018,%202022%205_15%20PM.gif)
+![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assests/Untitled_%20Aug%2027,%202023%202_16%20PM.gif)
 
 ## Github
 
