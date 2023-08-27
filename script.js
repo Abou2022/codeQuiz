@@ -144,7 +144,8 @@ function gameOver() {
   quiz.innerHTML = `
   <h2> You answered ${score}/${questionArray.length} question correctly </h2>
 
-  <button onclick="location.reload() " style="background-color:  white; padding: 25px; align-items: center; width: 60%; font-size: 20px; "> Reload</button>
+  <button onclick="location.reload() " style="background-color:  white;
+   padding: 25px; align-items: center; width: 60%; font-size: 20px; "> Reload</button>
   `;
   clearInterval(timer);
   myScoreBox.style.display = "block";
@@ -172,8 +173,7 @@ function storeData() {
   //displaying data on the page
 
   let text = JSON.parse(localStorage.getItem("highScore")) || [];
-  console.log("...............hello..................");
   console.log(text);
-  window.alert(text);
+  // window.alert(text);
   document.getElementById("finalBox").innerHTML = text;
 }

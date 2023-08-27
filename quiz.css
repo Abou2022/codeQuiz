@@ -2,14 +2,15 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(209, 209, 209);
+  background-image: url("./Assets/Answerquestion.jpg");
+  /* background-color: rgb(209, 209, 209); */
   font-family: "Times New Roman", Times, serif;
 }
 
 header {
   display: flex;
   flex-direction: column;
-  background-color: tomato;
+  /* background-color: tomato; */
   color: white;
   align-items: center;
   padding: 25px;
@@ -20,7 +21,12 @@ button {
   font-weight: bold;
   background-color: rgb(212, 212, 212);
 }
-
+button:hover {
+  background-color: aliceblue;
+}
+h3 {
+  color: wheat;
+}
 section {
   display: flex;
   float: left;
@@ -42,6 +48,10 @@ ul li {
   list-style-type: none;
   font-weight: bold;
 }
+ul li input {
+  width: 50px;
+  color: black;
+}
 aside {
   display: flex;
   float: right;
@@ -57,9 +67,9 @@ aside {
   font-family: "Times New Roman", Times, serif;
 }
 
-aside .scoreBox {
+/* aside .scoreBox {
   display: none;
-}
+} */
 
 footer {
   display: flex;
@@ -67,8 +77,10 @@ footer {
   clear: both;
   color: white;
   font-size: 30px;
-  padding: 60px;
+  padding: 30px;
   justify-content: center;
   align-items: center;
-  /* padding-bottom: 20px; */
+}
+footer h3 {
+  color: white;
 }
