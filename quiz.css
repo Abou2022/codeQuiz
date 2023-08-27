@@ -31,14 +31,19 @@ section {
   background-color: rgb(255, 172, 157);
   justify-content: center;
 }
-section .quiz-container ul li {
-  text-decoration: none;
+ul li {
+  list-style-type: none;
 }
 aside {
   display: flex;
   float: left;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
   width: 30%;
+  height: 20vh;
   margin: 25px;
+  border-radius: 15px;
   background-color: rgb(255, 99, 99);
 }
 
