@@ -5,27 +5,34 @@ body {
   background-color: rgb(209, 209, 209);
   font-family: "Times New Roman", Times, serif;
 }
+
 header {
-  /* display: inline-block; */
+  display: flex;
+  flex-direction: column;
   background-color: tomato;
   color: white;
-  justify-content: center;
+  align-items: center;
   padding: 25px;
 }
-header button {
-  clear: both;
-  padding: 10px;
-  margin: 10px;
+button {
+  padding: 25px;
+  background-color: rgb(212, 212, 212);
 }
+
 section {
   display: flex;
   float: right;
   align-items: center;
   width: 60%;
-  height: 100vh;
+  height: 70vh;
   margin: 25px;
+  font-size: 25px;
+  line-height: 100px;
   background-color: rgb(255, 172, 157);
   justify-content: center;
+}
+section .quiz-container ul li {
+  text-decoration: none;
 }
 aside {
   display: flex;
