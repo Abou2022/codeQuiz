@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url("./Assets/Answerquestion.jpg");
+  background-image: url("./Assests/Answerquestion.jpg");
   /* background-color: rgb(209, 209, 209); */
   font-family: "Times New Roman", Times, serif;
 }
@@ -94,7 +94,7 @@ footer h3 {
 }
 @media screen and (max-width: 767px) {
   body {
-    background-image: url("./Assets/mymystery.jpg");
+    background-image: url("./Assests/mymystery.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

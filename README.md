@@ -1,14 +1,15 @@
 # Code Quiz
 
-- The Url of the functional, deployed, mobile responsive application:
-- https://abou2022.github.io/codeQuiz/
-
 Table of Contents:
 
-    1. Descriptions
-    2. Installation
-    3. Mock-Up
-    4. Questions
+    1. Overview
+    2. Description
+    3. Technologies Used
+    4. Usage
+    5. App Screenshots
+    6. Mock-Up
+    7. Github
+    8. Email
 
 ## Overview
 
@@ -43,7 +44,7 @@ This user interaction flow outlines the sequence of actions and outcomes in an i
 
 ```
 
-## Installation
+## Technologies Used
 
 ```
 HTML: Utilized for structuring the content and layout of webpages, ensuring proper organization and accessibility.
@@ -53,19 +54,28 @@ CSS: Applied for styling, enhancing the visual appeal, and ensuring responsive d
 JavaScript: Implemented to add interactivity and dynamic behavior to web applications, enhancing user engagement and functionality.
 ```
 
+## Usage
+
+To access the website, simply [visit my website](https://abou2022.github.io/codeQuiz/). Feel free to resize the page or view it on various screens and devices to observe the responsive layout in action.
+
+## App Screenshots
+
+![Portfolio1](./Assests/QuizGameApp.png)
+
 ## Mock-Up
 
 The following animation demonstrates the application functionality:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/Untitled_%20Aug%2018,%202022%205_15%20PM.gif)
+![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assests/Untitled_%20Aug%2018,%202022%205_15%20PM.gif)
 
-## Question
+## Github
 
-For any question, you can email me or reach out via Github:
+You are encouraged to make contributions to this project by submitting a Git pull request on my [Github](https://github.com/Abou2022/codeQuiz). Your suggestions and contributions will be warmly welcomed and appreciated. Thank you for your valuable input and support.
 
-- [email](mailto:syllabakary2002@gmail.com)
-- [Github](https://github.com/Abou2022/codeQuiz)
+## Email
+
+Should you have any questions, please don't hesitate to reach out via email my [Email](mailto:syllabakary2002@gmail.com). Your inquiries are welcome, and I'm here to assist you.
 
 ---
 
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Bakary sylla, Inc. brand. Confidential and Proprietary. All Rights Reserved.

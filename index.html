@@ -2,21 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <script src="jquery-3.6.0.min.js"></script> -->
-    <title>Code quiz</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="./quiz.css" />
   </head>
   <body>
     <header>
-      <h1 class="whiteText">Welcome to your code challenge</h1>
-      <button id="Start" class="darkViolet">Start game</button>
+      <h1>Welcome to your coding Game Challenge</h1>
+      <button id="Start">Start Game</button>
     </header>
     <main>
-      <div class="quiz-container" id="quiz">
-        <div class="quiz-header">
-          <h2 class="question">Question:</h2>
+      <section>
+        <div class="quiz-container" id="quiz">
+          <h2 class="question">Question</h2>
           <ul>
             <li>
               <input type="radio" name="answer" id="a" class="answer" />
@@ -33,31 +31,29 @@
           </ul>
           <button id="submit">Submit</button>
         </div>
-      </div>
-      <div class="myFooter">
-        <div class="myTimer">
-          <h3>Time Keeper</h3>
+      </section>
+      <aside>
+        <div class="time-container">
+          <h3>Time Keeper :</h3>
+          <p><span id="timePara">60</span>&nbsp seconds left!!</p>
         </div>
-        <div class="timer">
-          <p><span id="timePara"> 30 </span>&nbsp; seconds left!</p>
-        </div>
+      </aside>
+      <aside>
         <div class="scoreBox">
-          <div>
-            <h3>ID <span id="winsSpan"></span></h3>
-            <input type="text" id="myInput" class="description col-md-10 past"></input>
-            <button onclick="storeData()" class="saveBtn col-md-1">Save</button>
-          </div>
-          <h3>My Score <span id="lossesSpan"></span></h3>
+          <h4>To save your score, add your Name and save</h4>
+          <input type="text" id="myInput" class="description" />
+          <button onclick="storeData()" class="saveBtn">Save</button>
         </div>
-      </div>
-      <div id="finalBox">
-        <h3 id="myInitiall">Initiall</h3>
-        <h4 id="finalScore"> Score</h4>
-      </div>
+      </aside>
+      <aside>
+        <div id="finalBox">
+          <h3 id="myInitiall">Initiall & Score</h3>
+        </div>
+      </aside>
     </main>
     <footer>
       <h3>Enjoy your game</h3>
     </footer>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
