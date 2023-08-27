@@ -23,10 +23,24 @@ var questionArray = [
   },
   {
     questionTitle: "What is Node.js",
-    a: "it isan open-source, cross-platform, back-end JavaScript runtime environment t",
+    a: "it is an open-source, cross-platform, back-end JavaScript runtime environment",
     b: "it is a language",
     c: "it is math function",
     correctAnswer: "a",
+  },
+  {
+    questionTitle: "What is CSS do",
+    a: "creating mobile and web apps",
+    b: " to create full-stack Web applications",
+    c: "used to style and layout web pages",
+    correctAnswer: "c",
+  },
+  {
+    questionTitle: "What is Artificial Intelligence (AI)",
+    a: " is the study of computers and computational systems",
+    b: " is the simulation of human intelligence by machines, especially computer systems",
+    c: " is a structure that you can build software on",
+    correctAnswer: "b",
   },
 ];
 
